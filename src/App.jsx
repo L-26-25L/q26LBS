@@ -1,13 +1,4 @@
-[٤:٣٧ ص, ١٦‏/١‏/٢٠٢٦] ⁦+966 55 058 9569⁩: import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
-[٤:٣٨ ص, ١٦‏/١‏/٢٠٢٦] ⁦+966 55 058 9569⁩: import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo } from 'react';
 import { Chart as ChartJS, registerables } from 'chart.js';
 import { Bar, Doughnut } from 'react-chartjs-2';
 import { LayoutDashboard, Table as TableIcon, ArrowRight, Star, XCircle } from 'lucide-react';
